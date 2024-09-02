@@ -14,7 +14,7 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Mechanical Engineer and Software Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-white py-4 max-w-md">
           Welcome to my personal portfolio! 
           I'm Caren Chibwara, a dynamic and analytical professional who thrives at the intersection of software development and mechanical engineering.
           My passion for technology is deeply rooted in a desire to create impactful solutions that drive sustainability and combat climate change. 
