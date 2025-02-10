@@ -1,25 +1,26 @@
-import "./App.css";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Experience from "./components/Experience";
-import Home from "./components/Home";
-import NavBar from "./components/NavBar";
-import Portfolio from "./components/Portfolio";
-import SocialLinks from "./components/SocialLinks";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <div className="space-y-10">
-        <NavBar />
-        <Home />
-        <About />
-        <Portfolio />
-        <Experience />
-        <Contact />
-        <SocialLinks />
-      </div>
-    </>
+    <div className="overflow-hidden flex flex-col min-h-screen">
+      <Navbar />
+      <main className="flex-grow">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 }
 

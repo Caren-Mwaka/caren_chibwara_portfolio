@@ -5,11 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    fontFamily:{
-      signature: 'Great Vibes'
-    }
+    extend: {
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        greatVibes: ["Great Vibes", "cursive"],
+      },
+    },
   },
   plugins: [],
-}
-
+};
