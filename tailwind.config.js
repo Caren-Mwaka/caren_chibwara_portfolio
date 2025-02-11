@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
         greatVibes: ["Great Vibes", "cursive"],
+        pacifico: ["Pacifico", "cursive"],
       },
     },
   },
