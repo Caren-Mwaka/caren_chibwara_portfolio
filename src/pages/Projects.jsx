@@ -13,7 +13,7 @@ const projects = [
     title: "Portfolio Website",
     description: "A personal portfolio showcasing my skills and projects.",
     image: "/assets/Desktop - 1.png", 
-    link: "https://yourportfolio.com",
+    link: "https://caren-chibwara-portfolio.vercel.app/",
   },
   {
     id: 3,
